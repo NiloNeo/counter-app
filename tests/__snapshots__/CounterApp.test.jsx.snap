@@ -16,7 +16,9 @@ exports[`Prueba de <CounterApp value={100} /> Hacer Snapshot con <CounterApp val
   <button>
      -1 
   </button>
-  <button>
+  <button
+    aria-label="btn-reset"
+  >
      Reset 
   </button>
 </div>
