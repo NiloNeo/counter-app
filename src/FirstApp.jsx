@@ -1,14 +1,10 @@
-
-const newMessage = 'illika!!!';
-
-const suma = (num1, num2) => (num1 + num2);
-
-const FirstApp = ( { title, subTitle = 'No hay SubTitle'} ) => {
+const FirstApp = ( { title, subTitle = 'No hay SubTitle', name = 'illika' } ) => {
 
     return (
         <>
-            <h1> { title } </h1>
-            <p> { subTitle } </p>
+            <h1 data-testid="titleid"> { title } </h1>
+            <h2> { subTitle } </h2>
+            <p> { name } </p>
         </>
     )
 }
